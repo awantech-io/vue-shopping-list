@@ -1,0 +1,63 @@
+<template>
+<div id ="app">
+  <List v-bind:lists="lists" />
+</div> 
+</template>
+
+<script>
+import List from './components/List.vue'
+
+export default {
+  name: 'App',
+  components: {
+    List
+  },
+  data(){
+    return{
+      lists:[
+        {
+          id:1,
+          title:'item one',
+          completed:false
+        },
+        {
+          id:2,
+          title:'item two',
+          completed:true
+        },
+        {
+          id:3,
+          title:'item three',
+          completed:false
+        }
+      ]
+    }
+  }
+}
+</script>
+
+<style>
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+  }
+
+  .btn {
+    display: inline-block;
+    border: none;
+    background: #555;
+    color: #fff;
+    padding: 7px 20px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background: #666;
+  }
+</style>
