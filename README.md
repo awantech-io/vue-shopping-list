@@ -1,24 +1,11 @@
 # vue-shopping-list
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* [x] Created dummy list item array of object in App.vue
+* [x] Create List component
+* [x] Create ListItem component
+* [x] Display list item in List Component
+* [x] Display line trough for completed list item
+* [x] Toogle Checked Button for completed / uncompleted list item
+* [] Delete list item
+* [] Apps Header
+* [] Add new list item
