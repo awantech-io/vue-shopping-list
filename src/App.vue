@@ -23,7 +23,7 @@ export default {
         {
           id:2,
           title:'item two',
-          completed:true
+          completed:false
         },
         {
           id:3,
